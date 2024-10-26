@@ -1,0 +1,71 @@
+.wp-active-we-featured-boxes {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.wp-active-we-feature-box-holder {
+  position: relative;
+}
+.wp-active-we-feature-box-holder .feature-box {
+  position: relative;
+  width: 100%;
+  padding: 20px 15px 30px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid var(--ae-color-white-gray);
+}
+.wp-active-we-feature-box-holder .feature-box .icon {
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+}
+.wp-active-we-feature-box-holder .feature-box .icon i {
+  font-size: 36px;
+}
+.wp-active-we-feature-box-holder .feature-box .icon svg {
+  width: 36px;
+  height: 36px;
+}
+.wp-active-we-feature-box-holder .feature-box .icon img {
+  width: 40px;
+}
+.wp-active-we-feature-box-holder .feature-box .f_title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--ae-color-dark);
+}
+.wp-active-we-feature-box-holder .feature-box .f_subtitle {
+  font-size: 13px;
+  font-weight: normal;
+  color: var(--ae-color-dark-low);
+}
+.wp-active-we-feature-box-holder .feature-box .f_text {
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--ae-color-gray-high);
+}
+.wp-active-we-feature-box-holder .f_link {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: -25px;
+  background: white;
+  border: 1px solid var(--ae-color-white-gray);
+  border-radius: 50px;
+}
+.wp-active-we-feature-box-holder .f_link svg {
+  fill: var(--ae-color-dark-low);
+  width: 24px;
+  height: 24px;
+}
+.wp-active-we-feature-box-holder .f_link i {
+  font-size: 20px;
+}
+.wp-active-we-feature-box-holder .f_link img {
+  width: 36px;
+  height: 36px;
+}
+
+/*# sourceMappingURL=featured-boxes.css.map */

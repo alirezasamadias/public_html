@@ -1,0 +1,73 @@
+.nader-login {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--nader-color-white);
+  border-radius: 4px;
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    a img {
+      height: 60px;
+    }
+  }
+
+  form.login, form.register {
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+
+  .register-tab {
+    display: none;
+  }
+
+  .login-tabs-head {
+    margin-bottom: 20px;
+
+    span {
+      height: 44px;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 4px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      &.active {
+        background: var(--nader-color-main);
+        color: white;
+
+        svg {
+          fill: white;
+        }
+      }
+    }
+  }
+}
+
+.lost_reset_password {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--nader-color-white);
+  border-radius: 4px;
+
+  p.form-row-first {
+    width: 100%;
+  }
+}
+
+.woocommerce-account:not(.logged-in) {
+  background: var(--nader-color-white-gray);
+}

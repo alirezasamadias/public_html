@@ -1,0 +1,58 @@
+.wp-active-we-posts-column {
+  gap: 10px;
+
+  .post-item {
+    display: flex;
+    gap: 10px;
+
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+    }
+
+    a {
+      h2 {
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all 0.3s;
+      }
+
+      &:hover h2 {
+        color: var(--nader-color-main);
+      }
+    }
+
+    span {
+      font-size: 12px;
+      color: var(--nader-color-dark-light);
+    }
+
+    .view-date {
+      gap: 10px;
+    }
+  }
+
+  .placeholder {
+    .image-holder {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+    }
+
+    .details {
+      width: calc(100% - 75px);
+    }
+
+    .title {
+      border-radius: 5px;
+    }
+
+    .view,.date {
+      display: inline-block;
+      border-radius: 5px;
+    }
+  }
+}
+

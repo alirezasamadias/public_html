@@ -1,0 +1,36 @@
+[Oct 15 11:17:44] 
+[Oct 15 11:17:44] ==DUPLICATOR INSTALLER BOOTSTRAP v4.5.9.1==
+[Oct 15 11:17:44] ----------------------------------------------------
+[Oct 15 11:17:44] Installer bootstrap start
+[Oct 15 11:17:44] Target dir dup folder \"/home2/anvareaftabcom/public_html/dup-installer\"
+[Oct 15 11:17:44] Manual extract found so not going to extract /home2/anvareaftabcom/public_html/dup-installer dir
+[Oct 15 11:17:44] EXTRACT /home2/anvareaftabcom/public_html/dup-installer dir
+[Oct 15 11:17:44] Successfully deleted the file /home2/anvareaftabcom/public_html/dup-installer/dup-installer-log__[HASH].txt
+[Oct 15 11:17:44] NOTICE: Didn't need to extract the installer.
+[Oct 15 11:17:44] Set permissions of /home2/anvareaftabcom/public_html/dup-installer<br/>
+[Oct 15 11:17:44] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/addons<br/>
+[Oct 15 11:17:44] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/api<br/>
+[Oct 15 11:17:44] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/assets<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/classes<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/ctrls<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/favicon<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/libs<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/original_files_[HASH]<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/src<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/templates<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/vendor<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/vendor-prefixed<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/.user.ini<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-archive__[HASH].txt<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-database__[HASH].sql<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-installer-notices__[HASH].json<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-params__[HASH].json<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-scan__[HASH].json<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/index.php<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/main.installer.php<br/>
+[Oct 15 11:17:45] Set permissions of /home2/anvareaftabcom/public_html/dup-installer/php_error__[HASH].log<br/>
+[Oct 15 11:17:45] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://www.anvareaftab.com/dup-installer/main.installer.php
+[Oct 15 11:17:45] [PHP ERR][WARN] MSG:[snuffleupagus][0.0.0.0][End-of-Life Check][log] Your PHP version '7.4.33' is not officially maintained anymore. Please upgrade as soon as possible. - Note: This message can be switched off by setting 'sp.global.show_old_php_warning.disable();' in your rules file or by setting the environment variable SP_SKIP_OLD_PHP_CHECK=1. [CODE:2|FILE:Unknown|LINE:0]

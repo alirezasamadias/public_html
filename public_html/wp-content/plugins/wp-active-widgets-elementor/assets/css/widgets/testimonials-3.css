@@ -1,0 +1,34 @@
+.wp-active-we-testimonials-3 .testimonial {
+  padding: 24px;
+  background: var(--ae-color-white);
+  border-radius: 4px;
+}
+.wp-active-we-testimonials-3 .testimonial .tm-head img {
+  width: 70px;
+  height: 70px;
+  border-radius: 500px;
+  object-fit: cover;
+  object-position: center center;
+}
+.wp-active-we-testimonials-3 .testimonial .tm-head .name {
+  margin-top: 8px;
+  font-size: 20px;
+  color: var(--ae-color-main-1);
+}
+.wp-active-we-testimonials-3 .testimonial .tm-head .position {
+  font-size: 14px;
+}
+.wp-active-we-testimonials-3 .testimonial .tm-head .rating svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--ae-color-main-1);
+  margin-top: 8px;
+}
+.wp-active-we-testimonials-3 .testimonial .tm-body {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--ae-color-gray-high);
+}
+
+/*# sourceMappingURL=testimonials-3.css.map */

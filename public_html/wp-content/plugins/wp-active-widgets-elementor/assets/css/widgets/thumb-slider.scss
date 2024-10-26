@@ -1,0 +1,15 @@
+.wp-active-we-thumb-slider .thumb-slide .thumb-wrapper {
+  overflow   : hidden;
+  display    : block;
+  transition : all 0.2s;
+
+  img {
+    padding : 10px;
+  }
+
+  span {
+    display    : flex;
+    text-align : center;
+    transition : all 0.2s;
+  }
+}

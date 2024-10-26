@@ -1,0 +1,16 @@
+.wp-active-we-category-list a {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.wp-active-we-category-list a span {
+  font-size: 12px;
+}
+.wp-active-we-category-list a:hover {
+  color: var(--ae-color-main-1);
+}
+
+/*# sourceMappingURL=category-list.css.map */

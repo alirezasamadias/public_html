@@ -1,0 +1,165 @@
+.wp-active-we-vertical-menu {
+  a {
+    position   : relative;
+    display    : flex;
+    padding    : 5px 0;
+    font-size  : 13px;
+    color      : var(--ae-color-dark);
+    transition : all 0.3s;
+
+    &:before {
+      position   : absolute;
+      content    : "";
+      top        : 50%;
+      transform  : translateY(-50%);
+      transition : all 0.3s;
+    }
+
+    &:hover {
+      color : var(--ae-color-main-1);
+    }
+  }
+
+  &.dot a {
+    &:before {
+      width         : 6px;
+      height        : 6px;
+      border-radius : 50px;
+      background    : var(--ae-color-white-gray);
+    }
+
+    &:hover:before {
+      background : var(--ae-color-main-1);
+      box-shadow : 0 0 7px var(--ae-color-main-1);
+    }
+  }
+
+  &.circle a {
+    &:before {
+      width         : 7px;
+      height        : 7px;
+      border-radius : 50px;
+      border        : 1px solid var(--ae-color-white-gray-high);
+    }
+
+    &:hover:before {
+      border-color : var(--ae-color-main-1);
+    }
+  }
+
+  &.line-v a {
+    &:before {
+      width         : 2px;
+      height        : 2px;
+      border-radius : 50px;
+      background    : var(--ae-color-white-gray);
+    }
+
+    &:hover:before {
+      height     : 8px;
+      background : var(--ae-color-main-1);
+    }
+  }
+
+  &.line-h a {
+    &:before {
+      width         : 2px;
+      height        : 2px;
+      border-radius : 50px;
+      background    : var(--ae-color-white-gray);
+    }
+
+    &:hover:before {
+      width      : 8px;
+      background : var(--ae-color-main-1);
+    }
+  }
+}
+
+body.rtl .wp-active-we-vertical-menu {
+  a {
+    &:before {
+      right : 0;
+    }
+
+    &:hover {
+      padding-right : 3px;
+    }
+  }
+
+  &.dot a {
+    padding-right : 14px;
+
+    &:hover {
+      padding-right : 17px;
+    }
+  }
+
+  &.circle a {
+    padding-right : 15px;
+
+    &:hover {
+      padding-right : 18px;
+    }
+  }
+
+  &.line-v a {
+    padding-right : 10px;
+
+    &:hover {
+      padding-right : 13px;
+    }
+  }
+
+  &.line-h a {
+    padding-right : 8px;
+
+    &:hover {
+      padding-right : 14px;
+    }
+  }
+}
+
+body:not(.rtl) .wp-active-we-vertical-menu {
+  a {
+    &:before {
+      left : 0;
+    }
+
+    &:hover {
+      padding-left : 3px;
+    }
+  }
+
+  &.dot a {
+    padding-left : 14px;
+
+    &:hover {
+      padding-left : 17px;
+    }
+  }
+
+  &.circle a {
+    padding-left : 15px;
+
+    &:hover {
+      padding-left : 18px;
+    }
+  }
+
+  &.line-v a {
+    padding-left : 10px;
+
+    &:hover {
+      padding-left : 13px;
+    }
+  }
+
+  &.line-h a {
+    padding-left : 8px;
+
+    &:hover {
+      padding-left : 14px;
+    }
+  }
+}

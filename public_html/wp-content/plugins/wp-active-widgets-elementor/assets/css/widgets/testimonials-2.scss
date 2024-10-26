@@ -1,0 +1,35 @@
+.wp-active-we-testimonials-2 .testimonial {
+  .text-box {
+    flex-shrink : 100;
+
+    .text {
+      color     : var(--ae-color-dark);
+      font-size : 16px;
+    }
+  }
+
+  .details-box {
+
+    img {
+      width         : 60px;
+      height        : 60px;
+      border-radius : 50px;
+      object-fit:    cover;
+      object-position: center center;
+    }
+
+    .comment-details {
+      white-space : nowrap;
+
+      b {
+        font-size : 15px;
+        color     : var(--ae-color-dark-high);
+      }
+
+      span {
+        font-size : 13px;
+        color     : var(--ae-color-dark-low);
+      }
+    }
+  }
+}

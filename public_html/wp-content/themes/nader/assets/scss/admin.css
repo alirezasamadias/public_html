@@ -1,0 +1,15 @@
+.acf-fields > .acf-tab-wrap {
+  display: flex;
+}
+
+.otgs-installer-notice {
+  display: none;
+}
+
+#wp-admin-bar-nader_top_bar_menu a {
+  display: flex !important;
+  align-items: center;
+  gap: 5px;
+}
+
+/*# sourceMappingURL=admin.css.map */

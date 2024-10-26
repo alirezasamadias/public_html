@@ -1,0 +1,66 @@
+.single-banner .project-info {
+  row-gap    : 30px;
+  margin-top : 40px;
+
+  .pib {
+    .pibt {
+      gap : 3px;
+    }
+
+    .icon {
+      background    : var(--nader-color-main);
+      border-radius : 4px;
+
+      svg {
+        fill : var(--nader-color-white);
+      }
+    }
+  }
+}
+
+.project-content-section {
+  .project-form {
+    display : none;
+  }
+
+  .project-comments {
+    display : none;
+  }
+
+  .project-tabs-switcher {
+    flex-wrap     : wrap;
+    margin-right  : 20px;
+    margin-left   : 20px;
+    background    : var(--nader-color-white-gray);
+    border-radius : 10px 10px 0 0;
+    overflow      : hidden;
+
+    li {
+      padding     : 15px 25px;
+      font-size   : 14px;
+      font-weight : bold;
+      color       : var(--nader-color-dark-light);
+      z-index     : 10;
+
+      svg {
+        width  : 20px;
+        height : 20px;
+        fill   : var(--nader-color-dark-light);
+      }
+
+      &.active {
+        color : var(--nader-color-dark);
+
+        svg {
+          fill : var(--nader-color-main);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .project-content-section .project-tabs-switcher li {
+    padding : 12px 20px;
+  }
+}

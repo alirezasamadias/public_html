@@ -1,0 +1,61 @@
+.wp-active-we-testimonials-1 {
+  .testimonial {
+    .text-box {
+      position      : relative;
+      padding       : 25px;
+      border-radius : 10px;
+      box-shadow    : 0 5px 25px rgba(0, 0, 0, 0.15);
+
+      .text {
+        color     : var(--ae-color-dark);
+        font-size : 16px;
+      }
+
+      .stars {
+        svg {
+          width  : 18px;
+          height : 18px;
+          fill: var(--ae-color-main-1)
+        }
+      }
+
+      &:before {
+        position         : absolute;
+        bottom           : -28px;
+        right            : 65px;
+        content          : "";
+        width            : 0;
+        height           : 0;
+        border           : 15px solid transparent;
+        border-top-color : white;
+      }
+
+    }
+
+    .details-box {
+      margin-top   : 25px;
+      margin-right : 50px;
+
+      img {
+        width         : 60px;
+        height        : 60px;
+        border-radius : 50px;
+        box-shadow    : 0 5px 15px rgba(0, 0, 0, 0.2);
+        object-fit:    cover;
+        object-position: center center;
+      }
+
+      .comment-details {
+        b {
+          color     : var(--ae-color-dark-high);
+          font-size : 15px;
+        }
+
+        span {
+          color     : var(--ae-color-dark-low);
+          font-size : 13px;
+        }
+      }
+    }
+  }
+}

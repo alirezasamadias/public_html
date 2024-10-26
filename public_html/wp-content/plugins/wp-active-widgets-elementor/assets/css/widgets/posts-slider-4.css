@@ -1,0 +1,66 @@
+.wp-active-we-posts-slider-4 .post-item {
+  background: white;
+  border-radius: 10px;
+  gap: 20px;
+  overflow: hidden;
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder {
+  position: relative;
+  height: 270px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder .meta-holder {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 100%;
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder .meta-holder .meta-svg {
+  fill: white;
+  max-width: 90%;
+  width: 140px;
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder .meta-holder .meta {
+  position: absolute;
+  right: auto;
+  left: auto;
+  top: 5px;
+  font-size: 11px;
+  color: var(--ae-color-dark);
+}
+.wp-active-we-posts-slider-4 .post-item .thumb-holder .meta-holder .meta svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  fill: var(--ae-color-dark);
+}
+.wp-active-we-posts-slider-4 .post-item .post-title h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--ae-color-dark);
+  transition: all 0.3s;
+}
+.wp-active-we-posts-slider-4 .post-item p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+  font-size: 13px;
+  text-align: justify;
+  color: var(--ae-color-gray-high);
+}
+.wp-active-we-posts-slider-4 .post-item.placeholder .post-thumbnail {
+  height: 100%;
+}
+
+/*# sourceMappingURL=posts-slider-4.css.map */

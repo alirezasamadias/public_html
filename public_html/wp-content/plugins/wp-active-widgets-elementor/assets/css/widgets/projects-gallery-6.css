@@ -1,0 +1,60 @@
+.wp-active-we-projects-gallery-6 .projects-inner {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.wp-active-we-projects-gallery-6 .gallery-in-loop {
+  display: block;
+  position: relative;
+}
+.wp-active-we-projects-gallery-6 .gallery-in-loop .gil-pages {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+.wp-active-we-projects-gallery-6 .gallery-in-loop .gil-pages .gil-page {
+  height: 100%;
+}
+.wp-active-we-projects-gallery-6 .project-item {
+  position: relative;
+}
+.wp-active-we-projects-gallery-6 .project-item .project-item-inner {
+  height: 100%;
+}
+.wp-active-we-projects-gallery-6 .project-item:hover .gil-page span {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.wp-active-we-projects-gallery-6 .project-item:hover .gil-page:hover span {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.wp-active-we-projects-gallery-6 .project-item .project-thumbnail {
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+}
+.wp-active-we-projects-gallery-6 .project-item .project-thumbnail img {
+  object-fit: cover;
+  object-position: center center;
+  height: 100%;
+}
+.wp-active-we-projects-gallery-6 .title-holder {
+  margin-top: 16px;
+}
+.wp-active-we-projects-gallery-6 .title-holder .post-title {
+  height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.wp-active-we-projects-gallery-6 .custom-field {
+  font-size: 12px;
+  gap: 5px;
+}
+.wp-active-we-projects-gallery-6 .custom-field .icon {
+  flex-shrink: 0;
+}
+
+/*# sourceMappingURL=projects-gallery-6.css.map */

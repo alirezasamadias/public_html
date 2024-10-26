@@ -1,0 +1,9 @@
+.fantasy-dot {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: radial-gradient(#bbb 0px, transparent 2px);
+  background-size: 10px 10px;
+}
+
+/*# sourceMappingURL=fantasy-dot.css.map */

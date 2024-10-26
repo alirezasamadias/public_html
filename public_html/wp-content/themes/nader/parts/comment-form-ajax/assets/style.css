@@ -1,0 +1,45 @@
+.ae-comment-form-ajax-notification {
+  position: fixed;
+  bottom: -70px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IRANSans", "IRANSansXFaNum", "IRANYekan", "IRANYekanFN";
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.ae-comment-form-ajax-notification.active {
+  opacity: 1;
+  visibility: visible;
+  bottom: 30px;
+}
+.ae-comment-form-ajax-notification.success {
+  background: #23b823;
+}
+.ae-comment-form-ajax-notification.error {
+  background: #f02b2b;
+}
+
+.ae-comment-form-ajax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

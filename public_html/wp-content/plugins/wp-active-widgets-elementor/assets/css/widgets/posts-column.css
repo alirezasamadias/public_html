@@ -1,0 +1,45 @@
+.wp-active-we-posts-column {
+  gap: 10px;
+}
+.wp-active-we-posts-column .post-item {
+  display: flex;
+  gap: 10px;
+}
+.wp-active-we-posts-column .post-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+}
+.wp-active-we-posts-column .post-item a h2 {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.wp-active-we-posts-column .post-item a:hover h2 {
+  color: var(--nader-color-main);
+}
+.wp-active-we-posts-column .post-item span {
+  font-size: 12px;
+  color: var(--nader-color-dark-light);
+}
+.wp-active-we-posts-column .post-item .view-date {
+  gap: 10px;
+}
+.wp-active-we-posts-column .placeholder .image-holder {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.wp-active-we-posts-column .placeholder .details {
+  width: calc(100% - 75px);
+}
+.wp-active-we-posts-column .placeholder .title {
+  border-radius: 5px;
+}
+.wp-active-we-posts-column .placeholder .view, .wp-active-we-posts-column .placeholder .date {
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=posts-column.css.map */

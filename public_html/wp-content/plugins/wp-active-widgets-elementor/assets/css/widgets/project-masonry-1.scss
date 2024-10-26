@@ -1,0 +1,319 @@
+.wp-active-we-projects-masonry-1 {
+  grid-template-columns : repeat(4, 1fr);
+
+  .project-item {
+    position : relative;
+    height   : 270px;
+    overflow : hidden;
+
+    img {
+      width      : 100%;
+      height     : 100%;
+      object-fit : cover;
+      transform  : scale(1.05);
+      transition : all 0.3s;
+    }
+
+    .details {
+      position   : absolute;
+      inset      : 0;
+      padding    : 15px;
+      background : #00000060;
+      visibility : hidden;
+      opacity    : 0;
+      transition : 0.3s;
+      transform  : scale(0.9);
+
+      .opener {
+        background    : white;
+        width         : 40px;
+        height        : 40px;
+        border-radius : 50px;
+
+        svg {
+          width  : 20px;
+          height : 20px;
+          fill   : #111111;
+        }
+      }
+
+      .link {
+        font-size  : 14px;
+        text-align : center;
+        color      : white;
+      }
+    }
+
+    &:hover {
+      .project-image {
+        transform : scale(1);
+      }
+
+      .details {
+        visibility : visible;
+        opacity    : 1;
+        transform  : scale(1);
+      }
+    }
+  }
+
+  .pi1 {
+    grid-row-start    : 1;
+    grid-column-start : 1;
+    grid-row-end      : 2;
+    grid-column-end   : 3;
+  }
+
+  .pi2 {
+    grid-row-start    : 1;
+    grid-column-start : 3;
+    grid-row-end      : 2;
+    grid-column-end   : 4;
+  }
+
+  .pi3 {
+    grid-row-start    : 1;
+    grid-column-start : 4;
+    grid-row-end      : 2;
+    grid-column-end   : 5;
+  }
+
+  .pi4 {
+    grid-row-start    : 2;
+    grid-column-start : 1;
+    grid-row-end      : 4;
+    grid-column-end   : 2;
+  }
+
+  .pi5 {
+    grid-row-start    : 2;
+    grid-column-start : 2;
+    grid-row-end      : 3;
+    grid-column-end   : 3;
+  }
+
+  .pi6 {
+    grid-row-start    : 3;
+    grid-column-start : 2;
+    grid-row-end      : 4;
+    grid-column-end   : 3;
+  }
+
+  .pi7 {
+    grid-row-start    : 2;
+    grid-column-start : 3;
+    grid-row-end      : 4;
+    grid-column-end   : 4;
+  }
+
+  .pi8 {
+    grid-row-start    : 2;
+    grid-column-start : 4;
+    grid-row-end      : 3;
+    grid-column-end   : 5;
+  }
+
+  .pi9 {
+    grid-row-start    : 3;
+    grid-column-start : 4;
+    grid-row-end      : 4;
+    grid-column-end   : 5;
+  }
+
+  &.ae-gap-0 {
+    .pi4, .pi7 {
+      height : 540px;
+    }
+  }
+
+  &.ae-gap-5 {
+    .pi4, .pi7 {
+      height : 545px;
+    }
+  }
+
+  &.ae-gap-10 {
+    .pi4, .pi7 {
+      height : 550px;
+    }
+  }
+
+  &.ae-gap-15 {
+    .pi4, .pi7 {
+      height : 555px;
+    }
+  }
+
+  &.ae-gap-20 {
+    .pi4, .pi7 {
+      height : 560px;
+    }
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .wp-active-we-projects-masonry-1 {
+    .project-item {
+      height : 200px;
+    }
+
+    &.ae-gap-0 {
+      .pi4, .pi7 {
+        height : 400px;
+      }
+    }
+
+    &.ae-gap-5 {
+      .pi4, .pi7 {
+        height : 405px;
+      }
+    }
+
+    &.ae-gap-10 {
+      .pi4, .pi7 {
+        height : 410px;
+      }
+    }
+
+    &.ae-gap-15 {
+      .pi4, .pi7 {
+        height : 415px;
+      }
+    }
+
+    &.ae-gap-20 {
+      .pi4, .pi7 {
+        height : 420px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .wp-active-we-projects-masonry-1 {
+    grid-template-columns : repeat(3, 1fr);
+
+    .pi1 {
+      grid-row-start    : 1;
+      grid-column-start : 1;
+      grid-row-end      : 2;
+      grid-column-end   : 3;
+    }
+
+    .pi2 {
+      grid-row-start    : 1;
+      grid-column-start : 3;
+      grid-row-end      : 2;
+      grid-column-end   : 4;
+    }
+
+    .pi3 {
+      grid-row-start    : 2;
+      grid-column-start : 1;
+      grid-row-end      : 4;
+      grid-column-end   : 2;
+    }
+
+    .pi4 {
+      grid-row-start    : 2;
+      grid-column-start : 2;
+      grid-row-end      : 3;
+      grid-column-end   : 3;
+    }
+
+    .pi5 {
+      grid-row-start    : 2;
+      grid-column-start : 3;
+      grid-row-end      : 3;
+      grid-column-end   : 4;
+    }
+
+    .pi6 {
+      grid-row-start    : 3;
+      grid-column-start : 2;
+      grid-row-end      : 4;
+      grid-column-end   : 3;
+    }
+
+    .pi7 {
+      grid-row-start    : 3;
+      grid-column-start : 3;
+      grid-row-end      : 5;
+      grid-column-end   : 4;
+    }
+
+    .pi8 {
+      grid-row-start    : 4;
+      grid-column-start : 1;
+      grid-row-end      : 5;
+      grid-column-end   : 2;
+    }
+
+    .pi9 {
+      grid-row-start    : 4;
+      grid-column-start : 2;
+      grid-row-end      : 5;
+      grid-column-end   : 3;
+    }
+
+    &.ae-gap-0, &.ae-gap-5, &.ae-gap-10, &.ae-gap-15, &.ae-gap-20 {
+      .pi4 {
+        height : 200px;
+      }
+    }
+
+    &.ae-gap-0 {
+      .pi3, .pi7 {
+        height : 400px;
+      }
+    }
+
+    &.ae-gap-5 {
+      .pi3, .pi7 {
+        height : 405px;
+      }
+    }
+
+    &.ae-gap-10 {
+      .pi3, .pi7 {
+        height : 410px;
+      }
+    }
+
+    &.ae-gap-15 {
+      .pi3, .pi7 {
+        height : 415px;
+      }
+    }
+
+    &.ae-gap-20 {
+      .pi3, .pi7 {
+        height : 420px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width : 640px) {
+  .wp-active-we-projects-masonry-1 {
+    grid-template-columns : 1fr 1fr;
+
+    .project-item {
+      grid-row-start    : unset;
+      grid-column-start : unset;
+      grid-row-end      : unset;
+      grid-column-end   : unset;
+    }
+
+    .pi1, .pi4, .pi7 {
+      grid-column-start : 1;
+      grid-column-end   : 3;
+    }
+
+    &.ae-gap-0, &.ae-gap-5, &.ae-gap-10, &.ae-gap-15, &.ae-gap-20 {
+      .project-item {
+        height : 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nader\n"
+"POT-Creation-Date: 2024-09-16 15:10+0330\n"
+"PO-Revision-Date: 2024-09-16 15:11+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comment-form-ajax/comment-form-ajax.php:25
+msgid "Please wait..."
+msgstr "لطفا صبر کنید..."
+
+#: comment-form-ajax/comment-form-ajax.php:26
+msgid "Duplicate comment error!"
+msgstr "دیدگاه تکراری!"
+
+#: comment-form-ajax/comment-form-ajax.php:27
+msgid "Error: Server doesn't respond."
+msgstr "خطا: سرور پاسخ نمی‌دهد."
+
+#: comment-form-ajax/comment-form-ajax.php:28
+msgid "Error while adding comment"
+msgstr "خطا در هنگام ارسال دیدگاه"
+
+#: comment-form-ajax/comment-form-ajax.php:29
+msgid "Please write something"
+msgstr "لطفا چیزی بنویسید"
+
+#: comment-form-ajax/comment-form-ajax.php:30
+msgid "Reply to this comment"
+msgstr "پاسخ به این دیدگاه"
+
+#: comment-form-ajax/comment-form-ajax.php:51
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+#: comment-form-ajax/comment-form-ajax.php:60
+msgid "Your comment has been sent."
+msgstr "دیدگاه شما فرستاده شد."
+
+#: comment-form-ajax/comment-form-ajax.php:70
+msgid "Failed security check."
+msgstr "خطای امنیتی."
+
+#: comment-form-ajax/comment-form-ajax.php:77
+msgid "Invalid post ID."
+msgstr "آیدی پست نامعتبر"
+
+#: comment-form-ajax/comment-form-ajax.php:90 comments.php:11
+#, php-format
+msgid "%d Comments"
+msgstr "%d دیدگاه"
+
+#: elementor/widgets/NaderBlogPostsSlider.php:347
+msgid "points"
+msgstr "امتیاز"
+
+#: elementor/widgets/NaderBlogPostsSlider.php:372
+#: elementor/widgets/NaderBlogPostsSlider.php:375
+msgid "Add To Cart"
+msgstr "افزودن به سبد خرید"
+
+#: elementor/widgets/NaderMiniCartOpener.php:97
+#: parts/global/mini-cart-box.php:9 parts/global/mini-cart-btn.php:6
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: elementor/widgets/NaderProjects.php:342 parts/search/search.php:55
+msgid "All"
+msgstr "همه"
+
+#: elementor/widgets/NaderSearchOpener.php:90
+msgid "search"
+msgstr "جستجو"
+
+#: elementor/widgets/single/NaderSingleShare.php:46
+#: gutenberg/blocks/share.php:10 parts/global/share.php:12
+msgid "Share on Facebook"
+msgstr "انتشار در فیسبوک"
+
+#: elementor/widgets/single/NaderSingleShare.php:56
+#: gutenberg/blocks/share.php:20 parts/global/share.php:22
+msgid "Share on Twitter"
+msgstr "انتشار در توییتر"
+
+#: elementor/widgets/single/NaderSingleShare.php:67
+#: gutenberg/blocks/share.php:31 parts/global/share.php:33
+msgid "Share on LinkedIn"
+msgstr "انتشار در لینکداین"
+
+#: elementor/widgets/single/NaderSingleShare.php:78
+#: gutenberg/blocks/share.php:42 parts/global/share.php:44
+msgid "Share on Whatsapp"
+msgstr "انتشار در واتساپ"
+
+#: elementor/widgets/single/NaderSingleShare.php:89
+#: gutenberg/blocks/share.php:53 parts/global/share.php:55
+msgid "Share on Telegram"
+msgstr "انتشار در تلگرام"
+
+#: elementor/widgets/single/NaderSingleTags.php:51
+msgid "tags:"
+msgstr "برچسب‌ها:"
+
+#: inc/NaderUtils.php:176 inc/NaderUtils.php:178 inc/NaderUtils.php:193
+#: parts/search/search.php:61
+msgid "Projects"
+msgstr "پروژه‌ها"
+
+#: inc/NaderUtils.php:177 inc/NaderUtils.php:179
+msgid "Project"
+msgstr "پروژه"
+
+#: inc/NaderUtils.php:180
+msgid "All projects"
+msgstr "تمام پروژه‌ها"
+
+#: inc/NaderUtils.php:181
+msgid "View projects"
+msgstr "مشاهده پروژه‌ها"
+
+#: inc/NaderUtils.php:182 inc/NaderUtils.php:183
+msgid "Add project"
+msgstr "افزودن  پروژه"
+
+#: inc/NaderUtils.php:184
+msgid "Edit project"
+msgstr "ویرایش پروژه"
+
+#: inc/NaderUtils.php:185
+msgid "Update project"
+msgstr "بروزرسانی پروژه"
+
+#: inc/NaderUtils.php:186
+msgid "Search project"
+msgstr "جستجوی پروژه‌"
+
+#: inc/NaderUtils.php:187 inc/NaderUtils.php:287
+msgid "Not found"
+msgstr "پیدا نشد"
+
+#: inc/NaderUtils.php:188 inc/NaderUtils.php:288
+msgid "Not found in trash"
+msgstr "در زباله دان پیدا نشد"
+
+#: inc/NaderUtils.php:194
+msgid "View & add project"
+msgstr "مشاهده و افزودن پروژه"
+
+#: inc/NaderUtils.php:221 inc/NaderUtils.php:224
+msgid "project categories"
+msgstr "دسته بندی‌های پروژه"
+
+#: inc/NaderUtils.php:222
+msgid "project category"
+msgstr "دسته بندی پروژه"
+
+#: inc/NaderUtils.php:247 inc/NaderUtils.php:250
+msgid "project tags"
+msgstr "برچسب پروژه‌ها"
+
+#: inc/NaderUtils.php:248
+msgid "project tag"
+msgstr "برچسب پروژه"
+
+#: inc/NaderUtils.php:276 inc/NaderUtils.php:278 inc/NaderUtils.php:293
+msgid "Teams"
+msgstr "کارمندان"
+
+#: inc/NaderUtils.php:277 inc/NaderUtils.php:279 parts/global/breadcrumb.php:68
+msgid "Team"
+msgstr "کارمند"
+
+#: inc/NaderUtils.php:280
+msgid "All teams"
+msgstr "همه کارمندان"
+
+#: inc/NaderUtils.php:281
+msgid "View team"
+msgstr "مشاهده کارمند"
+
+#: inc/NaderUtils.php:282 inc/NaderUtils.php:283
+msgid "Add team"
+msgstr "افزودن کارمند"
+
+#: inc/NaderUtils.php:284
+msgid "Edit team"
+msgstr "ویرایش کارمند"
+
+#: inc/NaderUtils.php:285
+msgid "Update team"
+msgstr "بروزرسانی کارمند"
+
+#: inc/NaderUtils.php:286
+msgid "Search team"
+msgstr "جستجو کارمند"
+
+#: inc/NaderUtils.php:294
+msgid "View & add team"
+msgstr "مشاهده و افزودن کارمند"
+
+#: inc/NaderUtils.php:613
+msgid "Copied to clipboard"
+msgstr "در حافظه موقت کپی شد"
+
+#: inc/NaderWoocommerce.php:136
+msgid "Introduction"
+msgstr "معرفی"
+
+#: inc/NaderWoocommerce.php:178
+msgid "Dashboard"
+msgstr ""
+
+#: inc/NaderWoocommerce.php:179
+msgid "Orders"
+msgstr ""
+
+#: inc/NaderWoocommerce.php:180
+msgid "Downloads"
+msgstr ""
+
+#: inc/NaderWoocommerce.php:181
+msgid "Addresses"
+msgid_plural "Address"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/NaderWoocommerce.php:185
+msgid "Payment methods"
+msgstr ""
+
+#: inc/NaderWoocommerce.php:186
+msgid "Account details"
+msgstr ""
+
+#: inc/NaderWoocommerce.php:187
+msgid "Logout"
+msgstr ""
+
+#: inc/activate-elementor-admin-notice.php:40
+msgid "Activate Elementor"
+msgstr "فعال کردن المنتور"
+
+#: inc/activate-elementor-admin-notice.php:52
+msgid "Install Elementor"
+msgstr "نصب المنتور"
+
+#: inc/activate-elementor-admin-notice.php:163
+msgid "با تشکر از شما بخاطر نصب قالب نادر!"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "نصب پلاگین های اجابری"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "نصب پلاگین ها"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337 inc/tgm.php:103
+#, php-format
+msgid "در حال نصب پلاگین: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "در حال بروز رسانی پلاگین: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626
+#: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1214
+#: inc/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "لازم"
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "توصیه شده"
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2647
+#: woocommerce/myaccount/dashboard.php:84
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/comment-list-template.php:27
+msgid "Time"
+msgstr "زمان"
+
+#: inc/comment-list-template.php:37
+msgid "Your comment will be published after approval by the administrator."
+msgstr "نظر شما بعد از تایید توسط مدیر منتشر خواهد شد."
+
+#: inc/pagination.php:37
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "برگه  %CURRENT_PAGE% از  %TOTAL_PAGES%"
+
+#: inc/pagination.php:40
+msgid "&laquo; First"
+msgstr "&laquo; اولین"
+
+#: inc/pagination.php:41
+msgid "Last &raquo;"
+msgstr "آخرین &raquo;"
+
+#: inc/pagination.php:42
+msgid "&laquo;"
+msgstr ""
+
+#: inc/pagination.php:43
+msgid "&raquo;"
+msgstr ""
+
+#: inc/pagination.php:44 inc/pagination.php:45
+msgid "..."
+msgstr ""
+
+#: inc/pagination.php:114
+msgid "First Page"
+msgstr "اولین برگه"
+
+#: inc/pagination.php:123
+msgid "Previous Page"
+msgstr "برگه قبلی"
+
+#: inc/pagination.php:143 inc/pagination.php:162 inc/pagination.php:174
+#, php-format
+msgid "Page %s"
+msgstr "برگه %s"
+
+#: inc/pagination.php:195
+msgid "Next Page"
+msgstr "برگه بعدی"
+
+#: inc/pagination.php:203
+msgid "Last Page"
+msgstr "برگه آخر"
+
+#: inc/tgm.php:101
+msgid "نصب پلاگین‌های ضروری نادر"
+msgstr ""
+
+#: inc/tgm.php:102
+msgid "نصب پلاگین‌های نادر"
+msgstr ""
+
+#: inc/tgm.php:106
+#, php-format
+msgid "نادر به این پلاگین نیاز دارد: %1$s."
+msgid_plural "نادر به این پلاگین‌ها نیاز دارد: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm.php:111
+#, php-format
+msgid "آپدیت جدید برای این پلاگین موجود است: %1$s."
+msgid_plural "این پلاگین‌ها را آپدیت کنید: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:34
+#, php-format
+msgid "Search results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: parts/global/breadcrumb.php:10
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: parts/global/breadcrumb.php:20
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: parts/global/breadcrumb.php:80
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: parts/global/breadcrumb.php:142
+msgid "Category: "
+msgstr "دسته بندی:"
+
+#: parts/global/breadcrumb.php:173
+msgid "Tag: "
+msgstr "برچسب: "
+
+#: parts/global/breadcrumb.php:203
+msgid "Search for: "
+msgstr "نتایج جستجو برای:"
+
+#: parts/global/breadcrumb.php:229
+msgid "Page: "
+msgstr "برگه:"
+
+#: parts/global/comment-form.php:15
+msgid "Give your opinion"
+msgstr "دیدگاه خودتان را بیان کنید"
+
+#: parts/global/comment-form.php:19
+msgid "name"
+msgstr "نام"
+
+#: parts/global/comment-form.php:20 parts/team/info.php:79
+msgid "email"
+msgstr "ایمیل"
+
+#: parts/global/comment-form.php:21
+msgid ""
+"Save my name, email and website in the browser for when I write a comment "
+"again."
+msgstr ""
+"نام، ایمیل و وب سایت من را برای زمانی که دوباره نظر می نویسم در مرورگر ذخیره "
+"کنید."
+
+#: parts/global/comment-form.php:23
+msgid "The text of your comment"
+msgstr "متن دیدگاه شما"
+
+#: parts/global/comment-form.php:27
+msgid "Send Comment"
+msgstr "ارسال دیدگاه"
+
+#: parts/global/mini-cart-box.php:31 woocommerce/cart/mini-cart.php:108
+msgid "Your cart is empty!"
+msgstr "سبد خرید شما خالی است!"
+
+#: parts/global/scroll-to-top-btn.php:12 parts/global/scroll-to-top-btn.php:23
+msgid "Go Top"
+msgstr "برو بالا"
+
+#: parts/header/menu-mobile.php:23
+msgid "Change menu"
+msgstr "تغییر فهرست"
+
+#: parts/login/form-login.php:7
+msgid "Username or Email or Phone number"
+msgstr "نام کاربری، ایمیل یا رمز عبور"
+
+#: parts/login/form-login.php:10 parts/login/form-register.php:13
+#: woocommerce/myaccount/form-login.php:69
+#: woocommerce/myaccount/form-login.php:137
+msgid "Password"
+msgstr "رمز عبور"
+
+#: parts/login/form-login.php:17 parts/login/tabs-switcher.php:8
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:52
+msgid "Login"
+msgstr "ورود"
+
+#: parts/login/form-login.php:19 parts/login/form-login.php:23
+msgid "Reset password"
+msgstr "فراموشی رمز عبور"
+
+#: parts/login/form-register.php:6 woocommerce/myaccount/form-login.php:113
+msgid "Username"
+msgstr "نام کاربری"
+
+#: parts/login/form-register.php:9
+msgid "Email"
+msgstr "ایمیل"
+
+#: parts/login/form-register.php:16
+msgid "Name"
+msgstr "نام"
+
+#: parts/login/form-register.php:19
+msgid "Family"
+msgstr "نام خانوادگی"
+
+#: parts/login/form-register.php:26 parts/login/tabs-switcher.php:16
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:159
+#: woocommerce/myaccount/form-login.php:160
+msgid "Register"
+msgstr "عضویت"
+
+#: parts/login/function.php:33
+msgid "Username or password is empty!"
+msgstr "نام کاربری یا رمز عبور خالی است!"
+
+#: parts/login/function.php:34 wishlist/wishlist.php:70
+msgid "Processing data..."
+msgstr "در حال پردازش اطلاعات..."
+
+#: parts/login/function.php:35 parts/login/function.php:67
+msgid "Username or password length is too long"
+msgstr "نام کاربری یا رمز عبور بسیار طولانی است"
+
+#: parts/login/function.php:36 parts/login/function.php:98
+msgid "Fill in all the fields"
+msgstr "تمام فیلدها را پر کنید"
+
+#: parts/login/function.php:37
+msgid "Fill this field"
+msgstr "این فیلد را پر کنید"
+
+#: parts/login/function.php:62
+msgid "Username or Password is empty!"
+msgstr "نام کاربری یا رمز عبور خالی است!"
+
+#: parts/login/function.php:79
+msgid "You have successfully logged in, transferring to account..."
+msgstr "شما با موفقیت وارد شدید، در حال انتقال..."
+
+#: parts/login/function.php:120
+msgid "Your registration was successful. Transferring..."
+msgstr "عضویت شما با موفقیت انجام شد. در حال انتقال..."
+
+#: parts/loop/card-sidebar-simple.php:15 parts/search/function.php:63
+#: parts/search/function.php:122 parts/single/banner.php:57
+#: woocommerce/myaccount/dashboard.php:82
+msgid "Date"
+msgstr "تاریخ"
+
+#: parts/loop/card-sidebar-simple.php:18 parts/search/function.php:65
+#: parts/search/function.php:124
+msgid "View"
+msgstr "بازدید"
+
+#: parts/loop/card-simple.php:15 parts/project/banner.php:58
+#: parts/sidebar/product-details.php:38 parts/single/banner.php:92
+msgid "Views"
+msgstr "بازدید"
+
+#: parts/loop/no-post.php:6 parts/search/function.php:149
+msgid "Unfortunately, there is no post!"
+msgstr "متاسفانه مطلبی وجود ندارد!"
+
+#: parts/project/banner.php:42 parts/single/banner.php:75
+msgid "Category"
+msgstr "دسته بندی"
+
+#: parts/project/banner.php:73 parts/project/tabs-switcher.php:49
+#: parts/single/banner.php:107
+msgid "Comments"
+msgstr "دیدگاه"
+
+#: parts/project/tabs-switcher.php:5
+msgid "About Project"
+msgstr "درباره پروژه"
+
+#: parts/project/tabs-switcher.php:6
+msgid "Project Order"
+msgstr "سفارش پروژه"
+
+#: parts/search/function.php:144
+msgid "All results"
+msgstr "همه نتایج"
+
+#: parts/search/search.php:8
+msgid "Search"
+msgstr "جستجو"
+
+#: parts/search/search.php:22
+msgid "Search..."
+msgstr "جستجو..."
+
+#: parts/search/search.php:58
+msgid "Posts"
+msgstr "مقالات"
+
+#: parts/search/search.php:65
+msgid "Products"
+msgstr "محصولات"
+
+#: parts/search/search.php:75
+msgid "Most liked keywords:"
+msgstr "جستجوهای محبوب:"
+
+#: parts/sidebar/product-details.php:7
+msgid "Product Details"
+msgstr "اطلاعات محصول"
+
+#: parts/sidebar/product-details.php:23
+msgid "Last Update"
+msgstr "تاریخ آخرین بروزرسانی"
+
+#: parts/sidebar/product-details.php:50
+msgid "Product SKU"
+msgstr "شناسه محصول"
+
+#: parts/sidebar/product-details.php:51
+msgid "N/A"
+msgstr ""
+
+#: parts/sidebar/product-details.php:64
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "دسته بندی:"
+msgstr[1] "دسته بندی:"
+
+#: parts/single/banner.php:42
+msgid "Author"
+msgstr "نویسنده"
+
+#: parts/single/next-previous.php:17 parts/team/next-previous.php:17
+msgid "Next"
+msgstr "بعدی"
+
+#: parts/single/next-previous.php:24 parts/team/next-previous.php:24
+msgid "Previous"
+msgstr "قبلی"
+
+#: parts/team/info.php:40
+msgid "position"
+msgstr "مسئولیت"
+
+#: parts/team/info.php:53
+msgid "expertise"
+msgstr "تخصص"
+
+#: parts/team/info.php:66
+msgid "experience"
+msgstr "تجربه"
+
+#: parts/team/info.php:92
+msgid "contact number"
+msgstr "شماره تماس"
+
+#: parts/team/info.php:104
+msgid "facebook"
+msgstr "فیسبوک"
+
+#: parts/team/info.php:112
+msgid "linkedin"
+msgstr "لینکداین"
+
+#: parts/team/info.php:120
+msgid "instagram"
+msgstr "اینستاگرام"
+
+#: parts/team/info.php:128
+msgid "twitter"
+msgstr "توییتر"
+
+#: parts/team/info.php:136
+msgid "github"
+msgstr "گیت هاب"
+
+#: parts/team/info.php:144
+msgid "gitlab"
+msgstr "گیت لب"
+
+#: parts/team/info.php:152
+msgid "pinterest"
+msgstr "پینترست"
+
+#: parts/team/info.php:160
+msgid "dribbble"
+msgstr "دریبل"
+
+#: wishlist/view/user-profile.php:14
+msgid "Favorite posts"
+msgstr "لیست دلخواه"
+
+#: wishlist/view/woocommerce.php:12
+msgid "Wishlist is empty."
+msgstr "لیست دلخواه خالی است."
+
+#: wishlist/wishlist.php:71
+msgid "A problem has arisen"
+msgstr "مشکلی بوجود آمده است."
+
+#: wishlist/wishlist.php:72
+msgid "You must be logged in to be able add this to your account!"
+msgstr "باید ابتدا در سایت عضو شوید!"
+
+#: wishlist/wishlist.php:124
+msgid "Wishlist"
+msgstr "لیست دلخواه"
+
+#: wishlist/wishlist.php:235
+msgid "Invalid action."
+msgstr "عمل نامعتبر"
+
+#: wishlist/wishlist.php:245
+msgid "Post ID not found."
+msgstr "پست پیدا نشد."
+
+#: wishlist/wishlist.php:248
+msgid "Post ID is empty!"
+msgstr "آیدی پست خالی است!"
+
+#: wishlist/wishlist.php:259
+msgid "User not found."
+msgstr "کاربر پیدا نشد."
+
+#: wishlist/wishlist.php:268
+msgid "Post type not exist!"
+msgstr "پست تایپ وجود ندارد!"
+
+#: wishlist/wishlist.php:272
+msgid "Post type is empty!"
+msgstr "پست تایپ خالی است!"
+
+#: wishlist/wishlist.php:280
+msgid "This post is already added."
+msgstr "این پست در حال حاضر وجود دارد."
+
+#: wishlist/wishlist.php:288
+msgid "There is no such post in your account"
+msgstr "چنین پستی در لیست دلخواه شما وجود ندارد."
+
+#: wishlist/wishlist.php:296
+msgid "Added successfully."
+msgstr "با موفقیت اضافه شد."
+
+#: wishlist/wishlist.php:304
+msgid "Deleted successfully."
+msgstr "با موفقیت حذف  شد."
+
+#. translators: %s is the product name
+#: woocommerce/cart/mini-cart.php:52
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:35
+msgid "Total number of orders:"
+msgstr "تعداد کل سفارشات:"
+
+#: woocommerce/myaccount/dashboard.php:48
+msgid "Your total purchase:"
+msgstr "کل هزینه کرد شما:"
+
+#: woocommerce/myaccount/dashboard.php:61
+msgid "All comments:"
+msgstr "همه دیدگاه ها:"
+
+#: woocommerce/myaccount/dashboard.php:74
+msgid "Your last orders"
+msgstr "آخرین سفارشات شما"
+
+#: woocommerce/myaccount/dashboard.php:80
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:86
+msgid "Total"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:88
+msgid "Actions"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/dashboard.php:113
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/dashboard.php:148
+msgid "Your last comments"
+msgstr "آخرین دیدگاه های شما"
+
+#: woocommerce/myaccount/dashboard.php:153
+msgid "Written In"
+msgstr "نوشته شده در"
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:81
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:87
+#: woocommerce/myaccount/form-login.php:88
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:125
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:146
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr "محصولات مرتبط"
+
+#: woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Nader"
+msgstr "نادر"
+
+#. Author of the plugin/theme
+msgid "Ali Emadzadeh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.rtl-theme.com/author/halbia/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Nader: طراحی با المنتور (برگه خالی)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Nader -> برگه عریض"
+msgstr ""
+
+#~ msgid "Remove this item"
+#~ msgstr "حذف این محصول"
+
+#~ msgid "The username or password is incorrect"
+#~ msgstr "نام کاربری یا رمز عبور اشتباه  است!"
+
+#~ msgid "Reply"
+#~ msgstr "پاسخ"
+
+#~ msgid "Log in to answer"
+#~ msgstr "برای پاسخ دادن وارد شوید"
+
+#~ msgid "Share: "
+#~ msgstr "اشتراک گذاری:"
+
+#~ msgid "close search"
+#~ msgstr "بستن جستجو"
+
+#~ msgid "Product Share"
+#~ msgstr "اشتراک گذاری محصول"
+
+#~ msgid "Related Posts"
+#~ msgstr "مطالب مرتبط"
+
+#~ msgid "Some features of this product"
+#~ msgstr "بعضی از ویژگی های این محصول"
+
+#~ msgid "Technology"
+#~ msgstr "تکنولوژی"
+
+#~ msgid "Price"
+#~ msgstr "قیمت"
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#~ msgid "Relies date: %s"
+#~ msgstr "تاریخ انتشار: %s"
+
+#~ msgid "Tags"
+#~ msgstr "برچسب‌ها"
+
+#~ msgid "SHOP"
+#~ msgstr "فروشگاه"

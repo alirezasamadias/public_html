@@ -1,0 +1,56 @@
+.wp-active-we-title-with-smooth-bg {
+
+  .inner-box {
+	position: relative;
+  }
+
+  .shape {
+
+	svg {
+	  height: 60px;
+	  fill:   white;
+	}
+
+	.c-shape {
+	  height:     60px;
+	  width:      100px;
+	  background: white;
+	}
+
+	.left-shape {
+	  position: relative;
+	  left:     1px;
+	}
+
+	.right-shape {
+	  position: relative;
+	  right:    1px;
+	}
+  }
+
+  .texts {
+	position: absolute;
+	bottom:   10px;
+
+	h3 {
+	  margin:     0;
+	  text-align: center;
+	}
+
+	span {
+	  text-align: center;
+	}
+  }
+}
+
+.rtl .wp-active-we-title-with-smooth-bg .shape {
+  .left-shape {
+	left: auto;
+	right: -1px;
+  }
+
+  .right-shape {
+	right: auto;
+	left: -1px;
+  }
+}

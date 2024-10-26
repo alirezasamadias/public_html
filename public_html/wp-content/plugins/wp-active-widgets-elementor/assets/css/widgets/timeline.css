@@ -1,0 +1,89 @@
+.wp-active-we-timeline ul li {
+  position: relative;
+  padding-bottom: 30px;
+}
+.wp-active-we-timeline ul li:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  width: 4px;
+  height: 100%;
+  background: #ccc;
+}
+.wp-active-we-timeline ul li:after {
+  position: absolute;
+  content: "";
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background: var(--ae-color-main-1);
+}
+.wp-active-we-timeline ul li:last-child {
+  padding-bottom: 0;
+}
+.wp-active-we-timeline ul li:last-child:before {
+  content: none;
+}
+.wp-active-we-timeline ul li .flag {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  min-height: 24px;
+  background: var(--ae-color-main-1);
+  color: var(--ae-color-dark);
+  border-radius: 5px 15px 15px 5px;
+  z-index: 10;
+}
+.wp-active-we-timeline ul li .flag:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  background: var(--ae-color-main-1);
+  z-index: 9;
+}
+.wp-active-we-timeline ul li .title {
+  font-size: 16px;
+}
+.wp-active-we-timeline ul li .subtitle {
+  font-size: 13px;
+}
+.wp-active-we-timeline ul li .text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.rtl .wp-active-we-timeline ul li:before {
+  right: 0;
+}
+.rtl .wp-active-we-timeline ul li:after {
+  right: -4px;
+}
+.rtl .wp-active-we-timeline ul li .flag {
+  border-radius: 15px 5px 5px 15px;
+}
+.rtl .wp-active-we-timeline ul li .flag:before {
+  left: -3px;
+}
+.rtl .wp-active-we-timeline ul li .texts {
+  margin-right: 25px;
+}
+
+body:not(.rtl) .wp-active-we-timeline ul li:before {
+  left: 0;
+}
+body:not(.rtl) .wp-active-we-timeline ul li:after {
+  left: -4px;
+}
+body:not(.rtl) .wp-active-we-timeline ul li .flag:before {
+  right: -3px;
+  border-radius: 5px 15px 15px 5px;
+}
+body:not(.rtl) .wp-active-we-timeline ul li .texts {
+  margin-left: 25px;
+}
+
+/*# sourceMappingURL=timeline.css.map */

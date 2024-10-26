@@ -1,0 +1,41 @@
+.si-category a {
+  position   : relative;
+  display    : flex;
+  gap        : 5px;
+  padding    : 5px 16px 5px;
+  font-size  : 14px;
+  transition : all 0.3s;
+
+  span {
+    font-size : 12px;
+  }
+
+  &:before {
+    position      : absolute;
+    right         : 0;
+    top           : 50%;
+    transform     : translateY(-50%);
+    content       : "";
+    width         : 6px;
+    height        : 6px;
+    border-radius : 50px;
+    background    : var(--nader-color-gray);
+    transition    : all 0.3s;
+  }
+
+  &:hover {
+    color : var(--nader-color-main);
+
+    &:before {
+      background : var(--nader-color-main);
+    }
+  }
+}
+body.rtl .si-category a:before{
+  right: 0;
+}
+
+body:not(.rtl) .si-category a:before{
+  left: 0;
+}
+

@@ -1,0 +1,69 @@
+.wp-active-we-products-grid {
+  grid-template-columns: repeat(4, 1fr);
+
+  .product-item {
+	position:      relative;
+	background:    white;
+	padding:       20px;
+	border-radius: 20px;
+	transition:    all 0.3s;
+
+	.image-holder {
+	  height: 200px;
+
+	  img {
+		object-fit: contain;
+		width:      100%;
+		height:     100%;
+	  }
+	}
+
+	.product-title {
+	  margin-top:    15px;
+	  margin-bottom: 20px;
+	  font-size:     13px;
+	  font-weight:   bold;
+	}
+
+	.product-details {
+
+	  .price-holder {
+		.normal-price {
+		  font-size: 16px;
+		}
+
+		.del-price {
+		  font-size: 13px;
+		  color:     red;
+		}
+
+		.woocommerce-Price-currencySymbol {
+		  font-size: 13px;
+		}
+	  }
+
+	  .buy-btn {
+		width:         44px;
+		height:        44px;
+		background:    var(--ae-color-main-3);
+		border-radius: 15px;
+
+		svg {
+		  width:      20px;
+		  height:     20px;
+		  fill:       white;
+		  transition: all 0.3s;
+		}
+	  }
+	}
+  }
+
+  .product-item.sale .price-holder .woocommerce-Price-currencySymbol {
+	writing-mode: vertical-lr;
+  }
+
+  .placeholder .price-holder {
+	height: 44px;
+	width:  100px;
+  }
+}

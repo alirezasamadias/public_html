@@ -1,0 +1,109 @@
+.wp-active-we-timeline ul li {
+  position       : relative;
+  padding-bottom : 30px;
+
+  &:before {
+    position   : absolute;
+    content    : "";
+    top        : 10px;
+    width      : 4px;
+    height     : 100%;
+    background : #ccc;
+  }
+
+  &:after {
+    position      : absolute;
+    content       : "";
+    top           : 6px;
+    width         : 12px;
+    height        : 12px;
+    border-radius : 50px;
+    background    : var(--ae-color-main-1);
+  }
+
+  &:last-child {
+    padding-bottom : 0;
+
+    &:before {
+      content : none;
+    }
+  }
+
+  .flag {
+    white-space : nowrap;
+    position    : absolute;
+    top         : 0;
+    min-height  : 24px;
+    background  : var(--ae-color-main-1);
+    color       : var(--ae-color-dark);
+    border-radius : 5px 15px 15px 5px;
+    z-index     : 10;
+
+    &:before {
+      position   : absolute;
+      content    : "";
+      width      : 10px;
+      height     : 10px;
+      top        : 50%;
+      transform  : translateY(-50%) rotate(45deg);
+      background : var(--ae-color-main-1);
+      z-index    : 9;
+    }
+  }
+
+  .title {
+    font-size : 16px;
+  }
+
+  .subtitle {
+    font-size : 13px;
+  }
+
+  .text {
+    margin-top : 10px;
+    font-size  : 14px;
+  }
+}
+
+.rtl .wp-active-we-timeline ul li {
+  &:before {
+    right : 0;
+  }
+
+  &:after {
+    right : -4px;
+  }
+
+  .flag {
+    border-radius : 15px 5px 5px 15px;
+
+    &:before {
+      left : -3px;
+    }
+  }
+
+  .texts {
+    margin-right : 25px;
+  }
+}
+
+body:not(.rtl) .wp-active-we-timeline ul li {
+  &:before {
+    left : 0;
+  }
+
+  &:after {
+    left : -4px;
+  }
+
+  .flag {
+    &:before {
+      right         : -3px;
+      border-radius : 5px 15px 15px 5px;
+    }
+  }
+
+  .texts {
+    margin-left : 25px;
+  }
+}

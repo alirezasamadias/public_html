@@ -1,0 +1,81 @@
+.wp-active-we-section-separator {
+  position : relative;
+
+  .separator-svg {
+    width : 100%;
+    fill  : white;
+
+    &.mobile {
+      display : none;
+    }
+  }
+
+  &.has-link .centered-icon-holder {
+    position : absolute;
+    display  : block;
+    top      : 20px;
+    right    : auto;
+    left     : auto;
+  }
+
+  &:not(.has-link) .centered-icon {
+    position  : absolute;
+    display   : block;
+    top       : 20px;
+    right    : auto;
+    left     : auto;
+  }
+
+  .centered-icon {
+    i {
+      font-size : 20px;
+      color     : #333;
+    }
+
+    svg {
+      width  : 24px;
+      height : 24px;
+      fill   : #333;
+    }
+
+    img {
+      width  : 30px;
+      height : 30px;
+    }
+  }
+}
+
+.wp-active-we-separator-icon-fading {
+  animation-name            : wp-active-we-separator-icon-fading;
+  animation-delay           : 0s;
+  animation-duration        : 1.6s;
+  animation-iteration-count : infinite;
+}
+
+@media screen and (max-width : 768px) {
+  .wp-active-we-section-separator .separator-svg {
+    &.mobile {
+      display : block;
+    }
+
+    &.desktop {
+      display : none;
+    }
+  }
+}
+
+@keyframes wp-active-we-separator-icon-fading {
+
+  0% {
+    opacity   : 0;
+    transform : translateY(-10px);
+  }
+  50% {
+    opacity   : 100%;
+    transform : translateY(0);
+  }
+  100% {
+    opacity   : 0;
+    transform : translateY(10px);
+  }
+}

@@ -1,0 +1,175 @@
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-btn {
+  border-radius: 4px;
+  background: var(--nader-color-main) !important;
+}
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-btn .woosc-bar-btn-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-btn .woosc-bar-btn-icon-wrapper .woosc-bar-btn-icon-inner {
+  margin: 0;
+}
+
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item img {
+  border-radius: 4px;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th {
+  width: 200px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th a {
+  font-size: 13px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th .woosc-remove {
+  color: red;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td {
+  padding: 15px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td.td-label {
+  font-weight: bold;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr.tr-price td:not(.td-label) del, .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr.tr-price td:not(.td-label) ins {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr.tr-price td:not(.td-label) ins {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: green;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper {
+  align-items: flex-start;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  background: var(--nader-color-white-gray);
+  border-radius: 4px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .button svg {
+  width: 18px;
+  height: 18px;
+  transition: all 0.2s;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .button:hover {
+  background: var(--nader-color-main);
+  color: white;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .button:hover svg {
+  fill: white;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .added_to_cart {
+  margin-top: 5px;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr .add-to-cart-wrapper .added_to_cart:hover {
+  background: var(--nader-color-white-gray);
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr.tr-rating td .star-rating {
+  float: unset;
+}
+
+.box-under-product-gallery .woosc-btn-has-icon {
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result ul li .item-inner .item-name {
+  width: calc(100% - 96px);
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-popup-close {
+  top: -10px;
+  background-color: red;
+  border-radius: 4px;
+}
+
+.woosc-popup.open .woosc-popup-inner .woosc-popup-content,
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result ul li .item-inner .item-add span {
+  border-radius: 4px;
+}
+
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item .woosc-bar-item-remove {
+  top: -2px;
+}
+
+body.rtl .woosc-area .woosc-inner .woosc-bar .woosc-bar-btn {
+  margin-right: 15px;
+  margin-left: 0;
+}
+body.rtl .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th {
+  padding: 15px 0 15px 15px;
+  text-align: right;
+}
+body.rtl .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td {
+  text-align: right;
+}
+body.rtl .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .ps-scrollbar-y-rail {
+  left: 0 !important;
+}
+body.rtl .woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-popup-close {
+  right: -10px;
+}
+body.rtl .woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item .woosc-bar-item-remove {
+  border-right: 50px;
+  right: -2px;
+}
+body.rtl .woosc-area .woosc-inner .woosc-bar .woosc-bar-share,
+body.rtl .woosc-area .woosc-inner .woosc-bar .woosc-bar-search {
+  margin: 0 0 0 10px;
+}
+body.rtl .woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item:last-child {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+body:not(.rtl) .woosc-area .woosc-inner .woosc-bar .woosc-bar-btn {
+  margin-left: 15px;
+  margin-right: 0;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th {
+  padding: 15px 15px 15px 0;
+  text-align: left;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td {
+  text-align: left;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .ps-scrollbar-y-rail {
+  right: 0 !important;
+}
+body:not(.rtl) .woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-popup-close {
+  left: -10px;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item .woosc-bar-item-remove {
+  border-left: 50px;
+  left: -2px;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-bar .woosc-bar-share,
+body:not(.rtl) .woosc-area .woosc-inner .woosc-bar .woosc-bar-search {
+  margin: 0 10px 0 0;
+}
+body:not(.rtl) .woosc-area .woosc-inner .woosc-bar .woosc-bar-items .woosc-bar-item:last-child {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=compare.css.map */

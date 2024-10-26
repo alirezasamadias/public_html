@@ -1,0 +1,112 @@
+body.rtl [type=email],
+body.rtl [type=number],
+body.rtl [type=tel],
+body.rtl [type=url] {
+  direction: rtl;
+}
+body.rtl .nader_title.long_line .before, body.rtl .nader_title.long_line::after {
+  left: 0;
+}
+body.rtl .nader_title .text_wrapper {
+  padding-left: 15px;
+}
+body.rtl .nader_title .text_wrapper span::before {
+  right: 0;
+}
+body.rtl .nader-info-box .icon::before {
+  right: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+body.rtl .nader-circle-progress .circle .center-text {
+  left: 50%;
+}
+body.rtl .nader-circle-progress .circle .center-text:before {
+  left: 50%;
+}
+body.rtl .nader-service-box .icon::before {
+  left: 0;
+}
+body.rtl .wp-pagenavi .pages {
+  margin-left: 10px;
+}
+body.rtl .nader-projects .portfolio-inner .item .item-label {
+  right: -70px;
+}
+body.rtl .nader-projects .portfolio-inner .item:hover .item-label {
+  right: 0;
+}
+body.rtl .nader-animated-headline.dir-left .nader-animated-headline-title span.visible {
+  left: 0 !important;
+}
+body.rtl .nader-animated-headline.dir-right .nader-animated-headline-title span.visible {
+  right: 0 !important;
+}
+body.rtl .nader-2-image-block.strait-left .image-box-2,
+body.rtl .nader-2-image-block.strait-right .image-box-2 {
+  left: 0;
+}
+body.rtl .nader-2-image-block.strait-right .image-box-1 {
+  margin-left: 0;
+  margin-right: auto;
+}
+body.rtl .nader-2-image-block.strait-left .image-box-1 {
+  margin-right: 0;
+  margin-left: auto;
+}
+body.rtl .nader-2-image-block.strait-right .image-box-2 {
+  left: auto;
+  right: 0;
+}
+body.rtl .nader-2-image-block.corner-top-left .image-box-1 {
+  right: 0;
+}
+body.rtl .nader-2-image-block.corner-top-left .image-box-2 {
+  left: 0;
+}
+body.rtl .nader-2-image-block.corner-top-right .image-box-1 {
+  right: 15%;
+}
+body.rtl .nader-2-image-block.corner-top-right .image-box-2 {
+  right: 0;
+}
+body.rtl .nader-2-image-block.corner-bottom-left .image-box-1 {
+  margin-right: 0;
+  margin-left: auto;
+}
+body.rtl .nader-2-image-block.corner-bottom-right .image-box-1 {
+  margin-right: auto;
+  margin-left: 0;
+}
+body.rtl .nader-2-image-block.corner-bottom-left .image-box-2 {
+  left: 0;
+}
+body.rtl .nader-2-image-block.corner-bottom-right .image-box-2 {
+  right: 0;
+}
+body.rtl .nader-floating-menu {
+  right: 30px;
+}
+body.rtl .stuck-to-down {
+  left: 20px;
+}
+body.rtl .nader-comments-slider-2 .comment-item .info img {
+  margin-left: 15px;
+}
+body.rtl .blog-post-slider-item .blog-post-slider-body .product-details .price ins {
+  margin-right: 5px;
+}
+body.rtl .archive-banner:before {
+  left: 20px;
+}
+body.rtl .single-sidebar-section .sidebar-item:before {
+  left: 20px;
+}
+body.rtl .single-sidebar-section .sidebar-item .si-header:before {
+  right: 0;
+}
+body.rtl .single-sidebar-section .sidebar-item .si-header:after {
+  right: 30px;
+}
+
+/*# sourceMappingURL=rtl.css.map */

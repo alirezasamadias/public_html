@@ -1,0 +1,70 @@
+@use "../mixins_and_extends";
+
+.team-posts {
+  .team-item-wrapper {
+	position: relative;
+	z-index:  10;
+  }
+
+  .post-item {
+	position:   relative;
+	padding:    10px;
+	background: var(--ae-color-white);
+
+	.member-avatar img {
+	  height:          150px;
+	  width:           150px;
+	  object-position: center center;
+	  object-fit:      cover;
+	  border-radius:   5px;
+	}
+
+	.member-name {
+	  margin-top:  16px;
+	  font-size:   13px;
+	  font-weight: bold;
+	  color:       var(--ae-color-dark);
+	}
+
+	.member-position {
+	  margin-top:  8px;
+	  font-size:   12px;
+	  font-weight: bold;
+	  color:       var(--ae-color-gray);
+	}
+
+	.member-expertise {
+	  @extend .member-position;
+	  margin-top:  0;
+	  font-weight: normal;
+	}
+
+	.member-socials {
+	  margin-top: 4px;
+
+	  li a {
+		width:         24px;
+		height:        24px;
+		@extend %dfx;
+		@extend %aic;
+		@extend %jcc;
+		border-radius: 50px;
+		background:    var(--ae-color-white-gray-high);
+
+		svg {
+		  width:  16px;
+		  height: 16px;
+		  fill:   var(--ae-color-white);
+		}
+
+		&:hover {
+		  background: var(--ae-color-main-1);
+
+		  svg {
+			fill: var(--ae-color-dark-high);
+		  }
+		}
+	  }
+	}
+  }
+}

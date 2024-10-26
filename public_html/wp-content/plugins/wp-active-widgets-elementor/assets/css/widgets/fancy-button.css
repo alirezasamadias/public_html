@@ -1,0 +1,39 @@
+.fancy-button-widget-wrapper .fancy-button-widget {
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  background: var(--viuna-color-white-dark-light);
+  border-radius: var(--viuna-border-radius-box-3);
+  overflow: hidden;
+}
+.fancy-button-widget-wrapper .fancy-button-widget svg, .fancy-button-widget-wrapper .fancy-button-widget i {
+  transition: all 0.3s;
+}
+.fancy-button-widget-wrapper .fancy-button-widget span {
+  display: block;
+}
+.fancy-button-widget-wrapper .fancy-button-widget span span {
+  transition: all 0.3s;
+}
+.fancy-button-widget-wrapper .fancy-button-widget .texts {
+  position: relative;
+}
+.fancy-button-widget-wrapper .fancy-button-widget .texts .t2 {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.fancy-button-widget-wrapper .fancy-button-widget:hover .t1 {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.fancy-button-widget-wrapper .fancy-button-widget:hover .t2 {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*# sourceMappingURL=fancy-button.css.map */

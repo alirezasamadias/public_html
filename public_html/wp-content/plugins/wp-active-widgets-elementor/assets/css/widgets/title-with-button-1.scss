@@ -1,0 +1,51 @@
+.wp-active-we-title-with-button-1 {
+  display : inline-block;
+
+  .twb1-bg {
+    display                 : block;
+    width                   : 20px;
+    height                  : 50px;
+    background-image        : radial-gradient(#d0d0d0 1px, transparent 2px);
+    -webkit-background-size : 10px 10px;
+    background-size         : 10px 10px;
+  }
+
+  .twb1-texts {
+
+    a {
+      display    : inline-block;
+      padding    : 0 10px;
+      font-size  : 13px;
+      background : var(--ae-color-main-1);
+      color      : white;
+    }
+
+    .twb1-title {
+      margin-top  : 5px;
+      font-size   : 18px;
+      font-weight : bold;
+    }
+  }
+}
+
+body.rtl .wp-active-we-title-with-button-1 {
+  .twb1-bg {
+    float       : right;
+    margin-left : 10px;
+  }
+
+  .twb1-texts {
+    float : right;
+  }
+}
+
+body:not(.rtl) .wp-active-we-title-with-button-1 {
+  .twb1-bg {
+    float        : left;
+    margin-right : 10px;
+  }
+
+  .twb1-texts {
+    float : left;
+  }
+}

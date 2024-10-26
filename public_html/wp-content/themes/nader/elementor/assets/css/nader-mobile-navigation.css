@@ -1,0 +1,77 @@
+.nader-mobile-navigation {
+  flex-direction: column;
+}
+.nader-mobile-navigation li a.nav-link {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--nader-color-dark);
+}
+.nader-mobile-navigation li a.nav-link > svg, .nader-mobile-navigation li a.nav-link > img, .nader-mobile-navigation li a.nav-link > i {
+  width: 20px;
+  height: 20px;
+  fill: var(--nader-color-dark);
+  color: var(--nader-color-dark);
+}
+.nader-mobile-navigation li a.nav-link .dropdown-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  transition: all 0.3s;
+}
+.nader-mobile-navigation li a.nav-link .dropdown-icon svg {
+  fill: var(--nader-color-dark);
+}
+.nader-mobile-navigation li a.nav-link .dropdown-icon.active {
+  transform: rotate(180deg);
+}
+.nader-mobile-navigation li a.nav-link:hover {
+  color: var(--nader-color-main);
+}
+.nader-mobile-navigation li a.nav-link:hover svg, .nader-mobile-navigation li a.nav-link:hover i {
+  fill: var(--nader-color-main);
+  color: var(--nader-color-main);
+}
+.nader-mobile-navigation li a.nav-link:hover .dropdown-icon svg {
+  fill: var(--nader-color-main);
+}
+.nader-mobile-navigation li .sub-menu:not(.mega_menu_simple, .mega_menu_column, .mega_menu_elementor), .nader-mobile-navigation li .mega-menu-box {
+  display: none;
+}
+.nader-mobile-navigation li .mega_menu_column_head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nader-mobile-navigation li .mega_menu_column_head .mega_menu_column-column_title {
+  gap: 10px;
+}
+.nader-mobile-navigation li .mega_menu_column_head .mega_menu_column-column_title > svg, .nader-mobile-navigation li .mega_menu_column_head .mega_menu_column-column_title > img, .nader-mobile-navigation li .mega_menu_column_head .mega_menu_column-column_title > i {
+  width: 20px;
+  height: 20px;
+  fill: var(--nader-color-dark);
+  color: var(--nader-color-dark);
+}
+.nader-mobile-navigation li .mega_menu_column_head .mega_menu_column-column_description {
+  padding-right: 30px;
+}
+.nader-mobile-navigation .mega_menu_column > li {
+  margin-bottom: 20px;
+}
+.nader-mobile-navigation .mega_menu_column .sub-menu {
+  padding-right: 30px;
+}
+.nader-mobile-navigation .mega-menu-box.active .sub-menu {
+  display: block;
+}
+
+body:not(.rtl) .nader-mobile-navigation li a.nav-link .dropdown-icon {
+  left: auto;
+  right: 0;
+}
+
+/*# sourceMappingURL=nader-mobile-navigation.css.map */

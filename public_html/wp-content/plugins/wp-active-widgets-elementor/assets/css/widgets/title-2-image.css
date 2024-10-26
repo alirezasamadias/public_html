@@ -1,0 +1,12 @@
+.title-2-image .title-main {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--ae-color-dark-high);
+}
+.title-2-image .title-second {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--ae-color-gray-high);
+}
+
+/*# sourceMappingURL=title-2-image.css.map */

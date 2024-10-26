@@ -1,0 +1,29 @@
+.wp-active-we-infinite-css-slider {
+  height: var(--ae-infinite-css-slider-height);
+  overflow: hidden;
+}
+.wp-active-we-infinite-css-slider .infinite-css-slider-list {
+  position: relative;
+  min-width: calc(var(--ae-infinite-css-slider-width) * var(--ae-infinite-css-slider-quantity));
+}
+.wp-active-we-infinite-css-slider .infinite-css-slider-list .slider-item {
+  width: var(--ae-infinite-css-slider-width);
+  height: var(--ae-infinite-css-slider-height);
+  position: absolute;
+  animation: autoRun linear infinite;
+  left: 100%;
+}
+.wp-active-we-infinite-css-slider:hover .slider-item {
+  animation-play-state: paused;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--ae-infinite-css-slider-width) * -1);
+  }
+}
+
+/*# sourceMappingURL=infinite-css-slider.css.map */

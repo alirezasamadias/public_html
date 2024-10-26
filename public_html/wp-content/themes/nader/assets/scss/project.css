@@ -1,0 +1,55 @@
+.single-banner .project-info {
+  row-gap: 30px;
+  margin-top: 40px;
+}
+.single-banner .project-info .pib .pibt {
+  gap: 3px;
+}
+.single-banner .project-info .pib .icon {
+  background: var(--nader-color-main);
+  border-radius: 4px;
+}
+.single-banner .project-info .pib .icon svg {
+  fill: var(--nader-color-white);
+}
+
+.project-content-section .project-form {
+  display: none;
+}
+.project-content-section .project-comments {
+  display: none;
+}
+.project-content-section .project-tabs-switcher {
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: var(--nader-color-white-gray);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.project-content-section .project-tabs-switcher li {
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--nader-color-dark-light);
+  z-index: 10;
+}
+.project-content-section .project-tabs-switcher li svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--nader-color-dark-light);
+}
+.project-content-section .project-tabs-switcher li.active {
+  color: var(--nader-color-dark);
+}
+.project-content-section .project-tabs-switcher li.active svg {
+  fill: var(--nader-color-main);
+}
+
+@media screen and (max-width: 768px) {
+  .project-content-section .project-tabs-switcher li {
+    padding: 12px 20px;
+  }
+}
+
+/*# sourceMappingURL=project.css.map */

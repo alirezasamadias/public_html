@@ -1,0 +1,75 @@
+.wp-active-we-projects-gallery-2 .projects-inner {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 30px;
+}
+.wp-active-we-projects-gallery-2 .project-item {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.wp-active-we-projects-gallery-2 .project-item h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5019607843);
+  backdrop-filter: blur(3px);
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s;
+  z-index: 12;
+  height: 60px;
+}
+.wp-active-we-projects-gallery-2 .project-item .main-image {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 10;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
+}
+.wp-active-we-projects-gallery-2 .project-item .branch-cards {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.wp-active-we-projects-gallery-2 .project-item .branch-cards img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1882352941);
+}
+.wp-active-we-projects-gallery-2 .project-item .branch-cards .branch-1 {
+  transform: scale(0.8) rotate(5deg) translate(45px, 8px);
+}
+.wp-active-we-projects-gallery-2 .project-item .branch-cards .branch-2 {
+  transform: scale(0.8) rotate(-5deg) translate(-45px, 8px);
+}
+.wp-active-we-projects-gallery-2 .project-item:hover .main-image {
+  transform: scale(0.9);
+}
+.wp-active-we-projects-gallery-2 .project-item:hover h3 {
+  transform: scale(0.9);
+}
+.wp-active-we-projects-gallery-2 .project-item:hover .branch-1 {
+  transform: scale(0.9) rotate(10deg) translate(60px, -5px);
+}
+.wp-active-we-projects-gallery-2 .project-item:hover .branch-2 {
+  transform: scale(0.9) rotate(-10deg) translate(-60px, -5px);
+}
+
+/*# sourceMappingURL=projects-gallery-2.css.map */

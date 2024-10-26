@@ -1,0 +1,103 @@
+.wp-active-we-tabs-with-image {
+
+  .tab-controls {
+	margin-bottom: 20px;
+
+	button {
+	  position:    relative;
+	  padding:     10px 30px;
+	  font-size:   16px;
+	  font-weight: bold;
+	  background:  transparent;
+	  border:      none;
+	  transition:  all 0.3s;
+	  z-index:     10;
+
+	  svg {
+		width:  34px;
+		height: 34px;
+	  }
+
+	  i {
+		font-size: 30px;
+	  }
+
+	  &.active {
+		color:   var(--ae-color-main-1);
+		z-index: 30;
+	  }
+	}
+  }
+
+  .tab-contents {
+	position: relative;
+	z-index:  20;
+
+	.tab-content {
+	  display:    none;
+	  transition: all 0.3s;
+	  height:     350px;
+
+	  &.active {
+		display: flex;
+	  }
+
+	  .img-box {
+		height:   100%;
+		width:    100%;
+		overflow: hidden;
+
+		img {
+		  object-fit: contain;
+		}
+	  }
+
+	  .content-box {
+		width:    100%;
+		padding:  20px 30px 20px 20px;
+		overflow: auto;
+
+		.content-title {
+		  font-weight: bold;
+		  font-size:   18px;
+		  color:       var(--ae-color-dark);
+		}
+
+		.content-subtitle {
+		  display:     flex;
+		  margin-top:  10px;
+		  font-size:   16px;
+		  font-weight: normal;
+		  color:       var(--ae-color-gray-high);
+		}
+
+		.content-p {
+		  margin-top: 20px;
+		  font-size:  14px;
+		  color:      var(--ae-color-gray);
+		}
+	  }
+	}
+  }
+}
+
+body:not(.rtl) .tab-contents .tab-content .content-box {
+  padding: 20px 20px 20px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-active-we-tabs-with-image .tab-contents .tab-content {
+	flex-direction: column;
+	height:         auto;
+
+	.img-box {
+	  width: 100% !important;
+
+	}
+
+	.content-box {
+	  width:    100% !important;
+	  overflow: visible;
+	}
+  }
+}

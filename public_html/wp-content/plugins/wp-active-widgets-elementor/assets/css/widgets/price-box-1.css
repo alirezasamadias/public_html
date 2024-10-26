@@ -1,0 +1,76 @@
+.wp-active-we-price-box-1 .price-box-header .price-box-title, .wp-active-we-price-box-1 .price-box-header .price-box-subtitle {
+  text-align: center;
+}
+
+.wp-active-we-price-box-1 .price-box-inner, .wp-active-we-price-box-1 .price-box-footer .price-box-button {
+  transition: all 0.3s;
+}
+
+.wp-active-we-price-box-1 {
+  position: relative;
+  z-index: 10;
+}
+.wp-active-we-price-box-1 .price-box-header .price-box-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.wp-active-we-price-box-1 .price-box-header .price-box-subtitle {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.wp-active-we-price-box-1 .price-box-header .icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(var(--ae-color-main-1-rgb), 0.2);
+  border-radius: 10px;
+}
+.wp-active-we-price-box-1 .price-box-header .icon svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--ae-color-main-1);
+}
+.wp-active-we-price-box-1 .price-box-label {
+  display: block;
+  text-align: center;
+}
+.wp-active-we-price-box-1 .price-box-body {
+  margin-top: 40px;
+}
+.wp-active-we-price-box-1 .price-box-body ul {
+  padding: 0;
+}
+.wp-active-we-price-box-1 .price-box-body ul li {
+  list-style: none;
+  font-size: 16px;
+  color: var(--ae-color-dark-high);
+}
+.wp-active-we-price-box-1 .price-box-body ul li svg, .wp-active-we-price-box-1 .price-box-body ul li i {
+  width: 18px;
+  height: 18px;
+  fill: var(--ae-color-main-1);
+}
+.wp-active-we-price-box-1 .price-box-body .line-de-active {
+  color: var(--ae-color-gray-low);
+}
+.wp-active-we-price-box-1 .price-box-footer {
+  margin-top: 40px;
+}
+.wp-active-we-price-box-1 .price-box-footer .price-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+.wp-active-we-price-box-1 .price-box-footer .price-text svg {
+  fill: var(--ae-color-gray);
+}
+.wp-active-we-price-box-1 .price-box-footer .price-box-button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background: rgba(var(--ae-color-main-3-rgb), 0.4);
+  color: var(--ae-color-main-3);
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=price-box-1.css.map */

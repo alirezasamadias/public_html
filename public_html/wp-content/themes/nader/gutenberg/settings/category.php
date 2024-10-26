@@ -1,0 +1,82 @@
+<?php
+defined('ABSPATH') || die();
+
+acf_add_local_field_group(array(
+    'key'                   => 'group_63ee4b05c0010',
+    'title'                 => 'تنظیمات بلوک دسته بندی',
+    'fields'                => array(
+        array(
+            'key'               => 'field_63ee4b06ce8a5',
+            'label'             => 'عنوان',
+            'name'              => 'nader-block-category-title',
+            'type'              => 'text',
+            'required'          => 0,
+            'conditional_logic' => 0,
+            'default_value'     => 'دسته‌بندی‌ها',
+        ),
+        array(
+            'key'               => 'field_63ef3b8149bb6',
+            'label'             => 'آیکون',
+            'name'              => 'nader-block-category-icon',
+            'type'              => 'textarea',
+            'instructions'      => 'از سایت remixicon.com می‌توانید آیکون انتخاب کنید',
+            'required'          => 0,
+            'conditional_logic' => 0,
+        ),
+        array(
+            'key'               => 'field_63ee4b60ce8a7',
+            'label'             => 'تکسونومی',
+            'name'              => 'nader-block-category-taxonomy',
+            'type'              => 'radio',
+            'required'          => 0,
+            'conditional_logic' => 0,
+            'choices'           => array(
+                'category'    => 'دسته بندی نوشته ها',
+                'project_cat' => 'دسته بندی پروژه ها',
+                'product_cat' => 'دسته بندی محصولات',
+            ),
+            'default_value'     => 'category',
+            'return_format'     => 'value',
+            'allow_null'        => 0,
+            'other_choice'      => 0,
+            'layout'            => 'vertical',
+            'save_other_choice' => 0,
+        ),
+        array(
+            'key'               => 'field_63ee4be5ce8a8',
+            'label'             => 'نمایش تعداد',
+            'name'              => 'nader-block-category-show-number',
+            'type'              => 'true_false',
+            'required'          => 0,
+            'conditional_logic' => 0,
+            'default_value'     => 0,
+            'ui'                => 1,
+        ),
+        array(
+            'key'               => 'field_63ee4be5ce8b7',
+            'label'             => 'نمایش موارد بدون دسته',
+            'name'              => 'nader-block-category-show-empty-terms',
+            'type'              => 'true_false',
+            'required'          => 0,
+            'conditional_logic' => 0,
+            'default_value'     => 0,
+            'ui'                => 1,
+        ),
+    ),
+    'location'              => array(
+        array(
+            array(
+                'param'    => 'block',
+                'operator' => '==',
+                'value'    => 'acf/nader-category',
+            ),
+        ),
+    ),
+    'menu_order'            => 0,
+    'position'              => 'normal',
+    'style'                 => 'default',
+    'label_placement'       => 'top',
+    'instruction_placement' => 'label',
+    'active'                => true,
+    'show_in_rest'          => 0,
+));

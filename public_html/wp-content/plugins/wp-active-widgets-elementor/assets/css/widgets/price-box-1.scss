@@ -1,0 +1,92 @@
+@use "../mixins_and_extends";
+
+.wp-active-we-price-box-1 {
+  position: relative;
+  z-index:  10;
+
+  .price-box-inner {
+	@extend %trans03;
+  }
+
+  .price-box-header {
+	.price-box-title {
+	  font-size:     24px;
+	  font-weight:   bold;
+	  margin-bottom: 0;
+	  @extend %txt_center;
+	}
+
+	.price-box-subtitle {
+	  margin-top:  16px;
+	  font-size:   16px;
+	  font-weight: normal;
+	  @extend %txt_center;
+	}
+
+	.icon {
+	  width:         60px;
+	  height:        60px;
+	  background:    rgba(var(--ae-color-main-1-rgb), 0.2);
+	  border-radius: 10px;
+
+	  svg {
+		width:  30px;
+		height: 30px;
+		fill:   var(--ae-color-main-1);
+	  }
+	}
+  }
+
+  .price-box-label {
+	display:    block;
+	text-align: center;
+  }
+
+  .price-box-body {
+	margin-top: 40px;
+
+	ul {
+	  padding: 0;
+
+	  li {
+		list-style: none;
+		font-size:  16px;
+		color:      var(--ae-color-dark-high);
+
+		svg, i {
+		  width:  18px;
+		  height: 18px;
+		  fill:   var(--ae-color-main-1);
+		}
+	  }
+	}
+
+
+	.line-de-active {
+	  color: var(--ae-color-gray-low);
+	}
+  }
+
+  .price-box-footer {
+	margin-top: 40px;
+
+	.price-text {
+	  font-size:   18px;
+	  font-weight: bold;
+
+	  svg {
+		fill: var(--ae-color-gray);
+	  }
+	}
+
+	.price-box-button {
+	  padding:       10px 20px;
+	  font-size:     15px;
+	  font-weight:   bold;
+	  background:    rgba(var(--ae-color-main-3-rgb), 0.4);
+	  color:         var(--ae-color-main-3);
+	  border-radius: 50px;
+	  @extend %trans03;
+	}
+  }
+}
